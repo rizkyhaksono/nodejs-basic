@@ -1,3 +1,3 @@
 # Backend App Dicoding
 
-Course from dicoding backend
+Course from Dicoding: Belajar Membuat Aplikasi Back-End untuk Pemula
