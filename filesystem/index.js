@@ -1,5 +1,7 @@
 const fs = require('fs');
-const { resolve } = require('path');
+
+// path resolve
+// const { resolve } = require('path');
 
 const fileReadCallback = (error, data) => {
   if(error) {
@@ -9,4 +11,5 @@ const fileReadCallback = (error, data) => {
   console.log(data);
 };
 
-fs.readFile(resolve(__dirname, 'note.txt'), 'UTF-8', fileReadCallback);
+// fs.readFile(resolve(__dirname, 'note.txt'), 'UTF-8', fileReadCallback);
+fs.readFile('./filesystem/note.txt', 'UTF-8', fileReadCallback);
